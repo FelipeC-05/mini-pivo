@@ -9,6 +9,7 @@
   
   html{
     height: 500vh;
+    
   }
   
   .container{
@@ -46,8 +47,9 @@
   
   
   .bnt-contato button{
-    width: 90px;
-    height: 30px;
+    font-size: 12px;
+    padding: 2px;
+    margin: 4px;
     border: 0;
     background-color: #247a72;
     color: white;
@@ -63,7 +65,7 @@
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: cover;
-  
+
     display: flex;
     align-items: center;
     justify-content: center;
@@ -134,7 +136,8 @@
   }
   
   .menu-item {
-    padding: 5px;
+    font-size: 13px;
+    padding: 2px;
     margin: 5px;
     cursor: pointer;
     border: #2A8C82 1px solid;
@@ -148,7 +151,7 @@
   
   main{
     background-color: #008F8C;
-    width: 85vw;
+    width: 98vw;
     margin: auto;
   }
   
