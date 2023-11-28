@@ -1,177 +1,175 @@
 @media screen and (max-width:600px){
   
-*{
-  margin: 0px;
-  padding: 0px;
-  box-sizing: border-box;
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-html{
-  height: 500vh;
-}
-
-.container{
-  max-width: 1280px;
-  margin: auto;
-}
-
-.flex{
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-
-
-header{
-  max-width: 500px;
-  padding: 60px 4%;
-  position: fixed;
-  top: 0;
-  left: 0;
-  transition: .5s;
-}
-
-header.rolagem{
-  background-color: white;
-  padding: 20px 4%;
-
-}
-
-
-header a{
-  font-size: 1.2em;
-}
-
-
-
-.bnt-contato button{
-  width: 120px;
-  height: 40px;
-  border: 0;
-  background-color: #247a72;
-  color: white;
-  cursor: pointer;
-  transition: .2s;
-  border-radius: 5px;
-  box-shadow: 3px 3px 4px rgba(0, 0, 0, 0.404);
-}
-
-.banner{
- height: 100vh;
-  background-image: url(img/fotopivo5.0.jpg);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-attachment: cover;
-
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.banner h1{
-  font-size: 4em;
-  text-align: center;
-}
-
-.banner h1 span{
-  color: aqua;
-}
-
-
-
-body {
-  font-family: Arial, sans-serif;
-  margin: 0;
-  padding: 0;
-  background-color: #2A8C82;
-  color: black;
-}
-
-
-
-.menu-container {
-  position: relative;
-  top: 30px;
-  left: -900px;
-  display: flex;
-  flex-direction: column;
-  display: flex;
-}
-
-.content {
-  position: fixed;
-  display: none;
-  column-count: 2;
-  list-style-type: none;
-  background-color: #247a72;
-  text-align: justify;
-  color: black;
-  text-decoration: none; 
-  margin: 5px;
-  padding: 10px;
-  font-size: 1em;
-}
-
-header ul li a{
-  position: relative;
-  text-align: justify;
-  display: block;
-  color: black;
-  text-decoration: none; 
-  margin: 0px;
-  padding: 10px;
-  font-size: 1em;
-}
-
-.menu {
-  list-style: none;
-  padding: 0;
-  display: inline-block;
-  margin: 0px 40px;
-  display: flex;
+  *{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+  }
   
-}
-
-.menu-item {
-  padding: 10px;
-  cursor: pointer;
-  margin: 0 20px;
-  border: #2A8C82 1px solid;
-  box-shadow: 2px 2px 4px  rgba(0, 0, 0, 0.411);
-  background-color: #247a72;
-  color: rgb(255, 255, 255);
-  margin-right: 50px; 
-  border-radius: 5px;
-}
-
-
-
-main{
-  background-color: #008F8C;
-  width: 85vw;
-  margin: auto;
-}
-
-article{
-  background-color: white;
-  padding: 10px;
-}
-
-aside {
-  background-color: red;
-  padding: 10px;
-  border-radius: 10px;
-  box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.363);
-}
-
-
-
-footer{
-  background-color: black;
-  color: white;
-}
-
+  html{
+    height: 500vh;
+  }
+  
+  .container{
+    max-width: 1280px;
+    margin: auto;
+  }
+  
+  .flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0px;
+  }
+  
+  
+  header{
+    width: 100%;
+    padding: 5px 10px 0px 10px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    transition: .5s;
+  }
+  
+  header.rolagem{
+    background-color: white;
+    padding: 20px 4%;
+  
+  }
+  
+  
+  header a{
+    font-size: 1.2em;
+  }
+  
+  
+  .bnt-contato button{
+    width: 90px;
+    height: 30px;
+    border: 0;
+    background-color: #247a72;
+    color: white;
+    cursor: pointer;
+    transition: .2s;
+    border-radius: 5px;
+    box-shadow: 3px 3px 4px rgba(0, 0, 0, 0.404);
+  }
+  
+  .banner{
+   height: 100vh;
+    background-image: url(img/fotopivo5.0.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: cover;
+  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .banner h1{
+    font-size: 4em;
+    text-align: center;
+  }
+  
+  .banner h1 span{
+    color: aqua;
+  }
+  
+  
+  
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #2A8C82;
+    color: black;
+  }
+  
+  
+  
+  .menu-container {
+    position: relative;
+    top: 30px;
+    left: -900px;
+    display: flex;
+    flex-direction: column;
+    display: flex;
+  }
+  
+  .content {
+    position: fixed;
+    display: none;
+    column-count: 2;
+    list-style-type: none;
+    background-color: #247a72;
+    text-align: justify;
+    color: black;
+    text-decoration: none; 
+    margin: 5px;
+    padding: 10px;
+    font-size: 1em;
+  }
+  
+  header ol li a{
+    position: relative;
+    text-align: justify;
+    display: block;
+    color: black;
+    text-decoration: none; 
+    margin: 0px;
+    padding: 10px;
+    font-size: 1em;
+  }
+  
+  .menu {
+    list-style: none;
+    padding: 0px;
+    display: inline-block;
+    margin: 0px 40px;
+    display: flex;
+    
+  }
+  
+  .menu-item {
+    padding: 5px;
+    margin: 5px;
+    cursor: pointer;
+    border: #2A8C82 1px solid;
+    box-shadow: 2px 2px 4px  rgba(0, 0, 0, 0.411);
+    background-color: #247a72;
+    color: rgb(255, 255, 255); 
+    border-radius: 5px;
+  }
+  
+  
+  
+  main{
+    background-color: #008F8C;
+    width: 85vw;
+    margin: auto;
+  }
+  
+  article{
+    background-color: white;
+    padding: 10px;
+  }
+  
+  aside {
+    background-color: red;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.363);
+  }
+  
+  
+  
+  footer{
+    background-color: black;
+    color: white;
+  }
 }
 
 @media screen and (min-width: 601px) {
@@ -289,7 +287,7 @@ body {
   font-size: 1em;
 }
 
-header ul li a{
+header ol li a{
   position: relative;
   text-align: justify;
   display: block;
@@ -297,7 +295,7 @@ header ul li a{
   text-decoration: none; 
   margin: 0px;
   padding: 10px;
-  font-size: 1em;
+  font-size: 1em;
 }
 
 .menu {
