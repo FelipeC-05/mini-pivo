@@ -9,7 +9,6 @@
 
 html{
   height: 500vh;
-  max-width: 150px;
 }
 
 .container{
@@ -25,7 +24,7 @@ html{
 
 
 header{
-  width: 100%;
+  max-width: 500px;
   padding: 60px 4%;
   position: fixed;
   top: 0;
@@ -202,7 +201,7 @@ html{
 
 header{
   width: 100%;
-  padding: 60px 4%;
+  padding: 30px 60px 0px 60px;
   position: fixed;
   top: 0;
   left: 0;
