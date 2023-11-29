@@ -9,7 +9,7 @@
   
   html{
     height: 500vh;
-    
+    width: 100vw;
   }
   
   .container{
@@ -26,7 +26,7 @@
   
   
   header{
-    width: 100%;
+    width: 100vw;
     padding: 5px 10px 0px 10px;
     position: fixed;
     top: 0;
