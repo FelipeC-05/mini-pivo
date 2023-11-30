@@ -49,8 +49,7 @@
   
   
   header{
-    min-width: 200px;
-    max-width: 500px;
+    width: 450px;
     padding: 5px 10px 0px 10px;
     position: fixed;
     top: 0;
@@ -83,7 +82,6 @@
   
   .banner{
     height: 100vh;
-    width: 500px;
     background-image: url(img/fotopivo5.0.jpg);
     background-position: right;
     background-repeat: no-repeat;
