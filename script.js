@@ -1,4 +1,4 @@
-document.addEventListener("DOMContentLoaded", function () {
+ document.addEventListener("DOMContentLoaded", function () {
   var menuItems = document.querySelectorAll('.menu-item');
   var contents = document.querySelectorAll('.content');
 
