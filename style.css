@@ -122,13 +122,15 @@
   #endereco{
     position: absolute;
     top: 50px;
-    left: -300px;
+    left: -250px;
   }
 
   #materiais{
-    position: absolute;
+    font-size: 12px;
     top: 50px;
-    left: -300px;
+    left: -250px;
+    position: absolute;
+    columns: 2;
   }
   
   .content {
