@@ -7,13 +7,13 @@
   }
   
   html{
-    min-width: 200px;
+    min-width: 220px;
     max-width: 600px;
   }
 
   body {
     height: 100%;
-    min-width: 200px;
+    min-width: 220px;
     max-width: 600px;
     font-family: Arial, sans-serif;
     margin: 0;
@@ -50,7 +50,7 @@
   
   
   header{
-    min-width: 200px;
+    min-width: 220px;
     max-width: 600px;
     padding: 5px 10px 0px 10px;
     position: fixed;
@@ -83,7 +83,7 @@
   }
   
   .banner{
-    min-width: 200px;
+    min-width: 220px;
     max-width: 600px;
     height: 100vh;
     background-image: url(img/fotopivo5.0.jpg);
@@ -116,19 +116,19 @@
   #integrantes{
     position: absolute;
     top: 50px;
-    left: -300px;
+    left: -200px;
   }
 
   #endereco{
     position: absolute;
     top: 50px;
-    left: -250px;
+    left: -200px;
   }
 
   #materiais{
     font-size: 12px;
     top: 50px;
-    left: -250px;
+    left: -200px;
     position: absolute;
     columns: 2;
   }
