@@ -91,12 +91,15 @@
   }
   
   .banner h1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #ffffff;
     font-size: 4em;
     text-align: center;
-  }
+    }
   
   .banner h1 span{
-    color: aqua;
+    color: rgb(30, 180, 0);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   }
   
   .menu-container {
@@ -200,7 +203,7 @@
   }
 
   div.video {
-    background-color: var(--cor5);
+    background-color: #247a72;
     margin-bottom: 30px;
     margin: 0px -20px 30px;
     padding: 20px;
@@ -217,7 +220,7 @@ div.video > iframe {
 }
   
   aside {
-    background-color: rgba(7, 82, 13, 0.5687);
+    background-color: rgb(38, 155, 47);
     margin: 10px;
     padding: 10px;
     border-radius: 10px;
@@ -227,6 +230,8 @@ div.video > iframe {
 
   aside ol li{
     column-count: 2;
+    list-style-position: inside;
+    list-style-type: disc;
   }
   
   
