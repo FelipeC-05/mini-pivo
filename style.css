@@ -22,17 +22,11 @@
     color: black;
   }
 
-  ol {
-    list-style-type: none;
-    padding: 0;
-  }
+  
 
   
-  ul{
+  ul  li{
     list-style-position: inside;
-  }
-
-  li{
     margin: 10px;
   }
 
@@ -160,6 +154,10 @@
     margin: 0px;
     padding: 5px;
     font-size: 1em;
+
+    list-style-type: none;
+    padding: 0;
+    margin: 10px;
   }
   
   .menu {
@@ -186,6 +184,7 @@
   main{
     background-color: #008F8C;
     width: 98vw;
+    height: 500vh;
     margin: auto;
   }
   
@@ -193,12 +192,35 @@
     background-color: white;
     padding: 10px;
   }
+
+  div.video {
+    background-color: var(--cor5);
+    margin-bottom: 30px;
+    margin: 0px -20px 30px;
+    padding: 20px;
+    padding-bottom: 57%;
+    position: relative;
+}
+
+div.video > iframe {
+    position: absolute;
+    top: 5%;
+    left: 5% ;
+    width: 90% ;
+    height: 90%;
+}
   
   aside {
-    background-color: red;
+    background-color: rgba(7, 82, 13, 0.5687);
+    margin: 10px;
     padding: 10px;
     border-radius: 10px;
     box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.363);
+    color: rgb(0, 0, 0);
+  }
+
+  aside ol li{
+    column-count: 2;
   }
   
   
@@ -220,6 +242,14 @@
 
 html{
   height: 500vh;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #2A8C82;
+  color: black;
 }
 
 ol {
@@ -303,18 +333,6 @@ header a{
   color: aqua;
 }
 
-
-
-body {
-  font-family: Arial, sans-serif;
-  margin: 0;
-  padding: 0;
-  background-color: #2A8C82;
-  color: black;
-}
-
-
-
 .menu-container {
   position: relative;
   top: 30px;
@@ -378,18 +396,22 @@ main{
   margin: auto;
 }
 
+
 article{
   background-color: white;
   padding: 10px;
 }
 
 aside {
-  background-color: red;
+  background-color: rgba(7, 82, 13, 0.5687);
+  margin: 10px;
   padding: 10px;
   border-radius: 10px;
   box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.363);
-}
+  color: rgb(0, 0, 0);
 
+  column-count: 2;
+}
 
 
 footer{
