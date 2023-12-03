@@ -20,11 +20,12 @@
     text-align: justify;
     margin: auto;
     padding: 0;
-    background-color: #2A8C82;
+    background-color: #2a8c5e;
     color: black;
   }
 
   body h2 {
+    background-image: linear-gradient(to right, rgb(187, 36, 36), transparent);
     margin-bottom: 10px;
   }
 
@@ -232,6 +233,22 @@ div.video > iframe {
     border-radius: 10px;
     box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.363);
     color: rgb(0, 0, 0);
+  }
+
+  aside h3 {
+    background-color: rgb(27, 110, 34);
+    color: white;
+    padding: 5px;
+    margin: -10px -10px 0px -10px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+  aside h4 {
+  background-color: rgb(27, 110, 34);
+  color: white;
+  padding: 5px;
+  margin: -10px -10px 0px -10px;
+  border-radius: 10px 10px 0px 0px;
   }
 
   aside ol li{
