@@ -17,13 +17,18 @@
     min-width: 220px;
     max-width: 600px;
     font-family: Arial, sans-serif;
+    text-align: justify;
     margin: auto;
     padding: 0;
     background-color: #2A8C82;
     color: black;
   }
 
-  
+  body h2 {
+    margin-bottom: 10px;
+  }
+
+
 
   
   ul  li{
@@ -254,13 +259,12 @@ div.video > iframe {
   
   html{
     min-width: 220px;
-    max-width: 600px;
+    
   }
 
   body {
     height: 100%;
     min-width: 220px;
-    max-width: 600px;
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
