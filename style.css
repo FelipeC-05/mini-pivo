@@ -51,8 +51,7 @@
   
   
   header{
-    min-width: 220px;
-    max-width: 600px;
+    width: 100vw;
     padding: 5px 10px 0px 10px;
     position: fixed;
     top: 0;
