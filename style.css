@@ -82,31 +82,95 @@
     box-shadow: 3px 3px 4px rgba(0, 0, 0, 0.404);
   }
   
-  .banner{
-    min-width: 220px;
-    max-width: 600px;
-    height: 100vh;
-    background-image: url(img/fotopivo5.0.jpg);
-    background-position: right;
-    background-repeat: no-repeat;
-    background-attachment: cover;
-
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  
-  .banner h1{
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    color: #ffffff;
-    font-size: 4em;
-    text-align: center;
-    }
-  
-  .banner h1 span{
-    color: rgb(30, 180, 0);
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  }
+  section.banner{
+    margin: 0 auto;
+    width: 100%;
+    height: auto;
+    padding: 0;
+    overflow: hidden;
+    margin-bottom: 50px;
+   }
+ 
+   .slider-content{
+     width: 400%;
+     height: auto;
+     display: flex;
+   }
+ 
+   .slider-content input, .img-mobile{
+     display: none;
+   }
+ 
+   .slide-box{
+     width: 25%;
+     height: auto;
+     position: relative;
+     text-align: center;
+     transition: 1s;
+   }
+ 
+   .slide-box img{
+     width: 100%;
+   }
+ 
+   .img-desktop{
+     display: none;
+   }
+ 
+   .img-mobile{
+     display: block;
+   }
+ 
+   .nav-manual, .nav-auto{
+     position: absolute;
+     width: 100%;
+     margin-top: 60%;
+     display: flex;
+     justify-content: center;
+   }
+ 
+   .nav-manual .manual-btn, .nav-auto div{
+     border: 1px solid green;
+     padding: 10px;
+     border-radius: 50%;
+     cursor: pointer;
+     transition: .5s;
+   }
+ 
+   .nav-manual .manual-btn:not(:last-child), .nav-auto div:not(:last-child){
+     margin-right: 10px;
+   }
+ 
+   .nav-manual .manual-btn:hover{
+     background-color: #247a72;
+   }
+ 
+   #radio1:checked ~ .nav-auto .auto-btn1,#radio2:checked ~ .nav-auto .auto-btn2, #radio3:checked ~ .nav-auto .auto-btn3, #radio4:checked ~ .nav-auto .auto-btn4{
+     background-color: #247a72;
+   }
+ 
+   #radio1:checked ~.primeiro{
+     margin-left: 0%;
+   }
+ 
+   #radio2:checked ~ .primeiro{
+     margin-left: -25%;
+   }
+ 
+   #radio3:checked ~ .primeiro{
+     margin-left: -50%;
+   }
+ 
+   #radio4:checked ~ .primeiro{
+     margin-left: -75%;
+   }
+ 
+   .banner h1{
+     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+     color: #ffffff;
+     font-size: 4em;
+     text-align: center;
+     }
   
   .menu-container {
     position: relative;
@@ -264,7 +328,7 @@ div.video > iframe {
   }
 }
 
-@media screen and (min-width: 601px) {
+@media screen and (min-width: 901px) {
   
   *{
     margin: 0px;
@@ -342,28 +406,95 @@ div.video > iframe {
     box-shadow: 3px 3px 4px rgba(0, 0, 0, 0.404);
   }
   
-  .banner{
-    min-width: 220px;
-    max-width: 600px;
-    height: 100vh;
-    background-image: url(img/fotopivo5.0.jpg);
-    background-position: right;
-    background-repeat: no-repeat;
-    background-attachment: cover;
-
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  
-  .banner h1{
-    font-size: 4em;
-    text-align: center;
-  }
-  
-  .banner h1 span{
-    color: aqua;
-  }
+  section.banner{
+    margin: 0 auto;
+    width: 100%;
+    height: auto;
+    padding: 0;
+    overflow: hidden;
+    margin-bottom: 50px;
+   }
+ 
+   .slider-content{
+     width: 400%;
+     height: auto;
+     display: flex;
+   }
+ 
+   .slider-content input, .img-mobile{
+     display: none;
+   }
+ 
+   .slide-box{
+     width: 25%;
+     height: auto;
+     position: relative;
+     text-align: center;
+     transition: 1s;
+   }
+ 
+   .slide-box img{
+     width: 100%;
+   }
+ 
+   .img-desktop{
+     display: none;
+   }
+ 
+   .img-mobile{
+     display: block;
+   }
+ 
+   .nav-manual, .nav-auto{
+     position: absolute;
+     width: 100%;
+     margin-top: 60%;
+     display: flex;
+     justify-content: center;
+   }
+ 
+   .nav-manual .manual-btn, .nav-auto div{
+     border: 1px solid green;
+     padding: 10px;
+     border-radius: 50%;
+     cursor: pointer;
+     transition: .5s;
+   }
+ 
+   .nav-manual .manual-btn:not(:last-child), .nav-auto div:not(:last-child){
+     margin-right: 10px;
+   }
+ 
+   .nav-manual .manual-btn:hover{
+     background-color: #247a72;
+   }
+ 
+   #radio1:checked ~ .nav-auto .auto-btn1,#radio2:checked ~ .nav-auto .auto-btn2, #radio3:checked ~ .nav-auto .auto-btn3, #radio4:checked ~ .nav-auto .auto-btn4{
+     background-color: #247a72;
+   }
+ 
+   #radio1:checked ~.primeiro{
+     margin-left: 0%;
+   }
+ 
+   #radio2:checked ~ .primeiro{
+     margin-left: -25%;
+   }
+ 
+   #radio3:checked ~ .primeiro{
+     margin-left: -50%;
+   }
+ 
+   #radio4:checked ~ .primeiro{
+     margin-left: -75%;
+   }
+ 
+   .banner h1{
+     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+     color: #ffffff;
+     font-size: 4em;
+     text-align: center;
+     }
   
   .menu-container {
     position: relative;
