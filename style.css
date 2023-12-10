@@ -332,7 +332,8 @@ div.video > iframe {
   }
   
   footer{
-    background-color: black;
+    background-color: rgb(18, 138, 82);
+    text-align: center;
     color: white;
   }
 }
@@ -652,7 +653,8 @@ div.video > iframe {
   
   
   footer{
-    background-color: black;
+    background-color: rgb(18, 138, 82);
+    text-align: center;
     color: white;
   }
 }
