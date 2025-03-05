@@ -94,7 +94,7 @@
     height: auto;
     padding: 0;
     overflow: hidden;
-    margin-bottom: 50px;
+    margin-bottom: 500px;
    }
  
    .slider-content{
@@ -466,7 +466,7 @@ div.video > iframe {
    .nav-manual, .nav-auto{
      position: absolute;
      width: 100%;
-     margin-top: 60%;
+     margin-top: 58%;
      display: flex;
      justify-content: center;
    }
@@ -474,7 +474,7 @@ div.video > iframe {
    .nav-manual .manual-btn, .nav-auto div{
      border: 1px solid green;
      padding: 10px;
-     border-radius: 50%;
+     border-radius: 60%;
      cursor: pointer;
      transition: .5s;
    }
