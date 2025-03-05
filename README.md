@@ -13,5 +13,7 @@ O projeto foi desenvolvido utilizando as seguintes tecnologias:
 ## 🎨 Layout  
 O design do site foi criado com uma interface moderna e intuitiva, utilizando **tons de verde** ja que se tratava de algo relacionado ao meio agricola, garantindo uma experiência visual agradável.  
 
-## 📂 Estrutura do Projeto  
+🌐 Link para Acessar o Site
+Você pode acessar o site diretamente através do seguinte link:
+<a href=https://felipec-05.github.io/mini-pivo/>Visite o site do projeto</a>
 
